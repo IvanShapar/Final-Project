@@ -1,6 +1,7 @@
+@import "Costants.scss";
 header{
   .header{
-    padding-top: 39px;
+    padding-top: 40px;
     position: relative;
     z-index: 1;
   }
@@ -8,16 +9,17 @@ header{
   .navbar-default .navbar-nav  {
     li {
       a {
-        padding: 12px 21px;
+        padding: 5px 21px;
         color: white;
         font-size: 10px;
-        border-bottom: 3px solid rgba(0,0,0,0);
+        border: 1px solid rgba(0,0,0,0);
+        font-family: $general_font_text, sans-serif;
 
         &:hover{
           background-color: rgba(0,0,0,0);
           color: white;
-          border-bottom: 1px solid white;
-          border-radius: 13px;
+          border: 1px solid white;
+          border-radius: 20px;
         }
       }
     }
@@ -32,4 +34,12 @@ header{
     border: none;
     margin-bottom: 0;
   }
+}
+.navbar-brand{
+  width: 111px;
+  height: 20px;
+  img{
+    margin-bottom: 6px;
+  }
+
 }

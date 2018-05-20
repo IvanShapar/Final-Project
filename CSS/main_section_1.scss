@@ -1,0 +1,39 @@
+@import "Costants.scss";
+
+.banner {
+  background-image: url(../Images/banner.png);
+  position: relative;
+  top: -72px;
+  z-index: 0;
+
+  padding-top: 220px;
+  padding-bottom: 50px;
+  h1 {
+    color: white;
+    font-family: $general_font_caption Lig;
+    font-size: 23px;
+    margin-bottom: 47px;
+  }
+  p {
+    font-size: 10px;
+    font-family: $general_font_text,;
+    width: 600px;
+    margin: auto;
+    height: 256px;
+    color:white;
+  }
+  div{
+    transform: rotate(90deg);
+    color:white;margin-bottom: 77px;
+    font-size: 15px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: $active_color;
+    text-align: center;
+    line-height: 36px;
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+}
