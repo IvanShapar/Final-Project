@@ -1,17 +1,20 @@
 @import "Costants.scss";
 header{
-  .header{
-    padding-top: 40px;
-    position: relative;
-    z-index: 1;
+  padding-top: 40px;
+    position: absolute;
+  width: 100%;
+@media screen and (max-device-width: 767px) {
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: black;
   }
+}
 
   .navbar-default .navbar-nav  {
     li {
       a {
         padding: 5px 21px;
         color: white;
-        font-size: 10px;
+        font-size: 16px;
         border: 1px solid rgba(0,0,0,0);
         font-family: $general_font_text, sans-serif;
 
@@ -34,12 +37,14 @@ header{
     border: none;
     margin-bottom: 0;
   }
-}
+
 .navbar-brand{
   width: 111px;
   height: 20px;
+  margin-right: 20px;
   img{
     margin-bottom: 6px;
+
   }
 
-}
+}}

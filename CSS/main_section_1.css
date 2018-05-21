@@ -1,0 +1,106 @@
+.caption {
+  font-size: 20px;
+  font-family: "Source Sans Pro"; }
+
+.text {
+  font-size: 14px;
+  font-family: "Open Sans";
+  line-height: 1.786; }
+
+.banner {
+  background-image: url(../Images/banner.png);
+  padding-top: 210px;
+  padding-bottom: 50px; }
+  .banner h1 {
+    color: white;
+    font-family: "Source Sans Pro";
+    font-size: 35px;
+    margin-bottom: 47px; }
+  .banner p {
+    font-size: 16px;
+    font-family: "Open Sans";
+    max-width: 600px;
+    margin: auto;
+    height: 256px;
+    color: white;
+    line-height: 1.75; }
+  .banner div {
+    color: white;
+    margin-bottom: 77px;
+    font-size: 15px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #19bd9a;
+    text-align: center;
+    line-height: 46px;
+    margin-right: auto;
+    margin-left: auto; }
+
+.IPAD {
+  padding-top: 115px;
+  padding-bottom: 100px; }
+  .IPAD .container .row .col-lg-5 h3 {
+    color: #333b46;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    margin-bottom: 52px; }
+  .IPAD .container .row .col-lg-5 p {
+    color: #81868e;
+    font-family: "Open Sans";
+    font-size: 14px;
+    margin-bottom: 37px;
+    line-height: 1.786; }
+  .IPAD .container .row a {
+    display: block;
+    color: #333b46;
+    width: 138px;
+    height: 35px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #333b46;
+    border-radius: 16px; }
+    .IPAD .container .row a:hover {
+      text-decoration: none; }
+
+.deteils {
+  padding: 80px 0 105px 0;
+  background-color: #f3f3f3; }
+  .deteils h3 {
+    font-size: 20px;
+    font-family: "Source Sans Pro";
+    margin-bottom: 45px; }
+  .deteils p {
+    max-width: 460px;
+    margin: auto;
+    font-size: 14px;
+    font-family: "Open Sans";
+    line-height: 1.786;
+    margin-bottom: 64px; }
+    .deteils p span {
+      color: #19bd9a; }
+  .deteils div {
+    text-align: center; }
+    .deteils div a {
+      display: inline-block;
+      width: 53px;
+      height: 53px;
+      background-color: #81868e;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 60px;
+      color: white;
+      margin: 13px; }
+      .deteils div a:hover {
+        background-color: #19bd9a; }
+  .deteils .container .row .col-lg-2 h4 {
+    font-family: "Open Sans";
+    font-size: 20px; }
+  .deteils .container .row .col-lg-5 p, .deteils .container .row .col-lg-3 p {
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 1.786; }
+
+/*# sourceMappingURL=main_section_1.css.map */

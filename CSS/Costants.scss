@@ -1,5 +1,16 @@
 $general_font_text:'Open Sans';
-$general_font_caption:'SSource Sans Pro Light';
+$general_font_caption:'Source Sans Pro';
 $active_color:#19bd9a;
 $caption_color:#333b46;
 $text_color:#81868e;
+$back_color:#f3f3f3;
+
+.caption{
+  font-size: 20px;
+  font-family: $general_font_caption;
+}
+.text {
+  font-size: 14px;
+  font-family: $general_font_text;
+  line-height: 1.786;
+}
