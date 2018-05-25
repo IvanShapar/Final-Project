@@ -15,6 +15,12 @@
     <script type="text/javascript" rel="script" src="JS/jquery-2.2.1.min.js"></script>
     <script type="text/javascript" rel="script" src="JS/bootstrap.min.js"></script>
     <script type="text/javascript" rel="script" src="JS/script.js"></script>
+
+    <script>
+        $(function () {
+            $("#tabs").tabs();
+        });
+    </script>
 </head>
 <body>
 <header>
@@ -133,23 +139,64 @@
             </div>
         </div>
     </section>
-    <section class="progressbar">
-        <h3></h3>
-        <p></p>
+    <section class="progressbars">
+        <h3 class="text-center text-uppercase">our servise</h3>
+        <p class="text-center"> At vero eos et accusamus et iusto odio dignissimos ducimus,</p>
         <div class="container">
             <div class="row">
+
                 <div class="col-lg-1 col-lg-offset-1">
-                    <a class="tabs"></a>
-                    <a class="tabs"></a>
-                    <a class="tabs"></a>
-                    <a class="tabs"></a>
+                    <ul role="tablist" type="none">
+                        <li role="presentation"><a href="#wrench" aria-controls="wrench" role="tab" data-toggle="tab"
+                                                   class="button"><i
+                                class="fa fa-wrench fa-2x"></i></a>
+                        </li>
+                        <li role="presentation" class="active"><a href="#paint" aria-controls="profile" role="tab"
+                                                                  data-toggle="tab" class="button"><i
+                                class="fa fa-paint-brush fa-2x"></i></a>
+                        </li>
+                        <li role="presentation"><a href="#gamepad" aria-controls="gamepad" role="tab" data-toggle="tab"
+                                                   class="button"><i
+                                class="fa fa-gamepad fa-2x"></i></a>
+                        </li>
+                        <li role="presentation"><a href="#battery" aria-controls="battery" role="tab" class="button"
+                                                   data-toggle="tab"><i
+                                class="fa fa-battery-full fa-2x"></i></a>
+                        </li>
+                    </ul>
                 </div>
+
                 <div class="col-lg-3">
-                    <div></div>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane" id="wrench">
+                            <h3>Sed ut perspiciatis</h3>
+                            <p>atus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam e</p>
+                            <p>atus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam e</p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane  active" id="paint">
+                            <h3>Graphic Desing</h3>
+                            <p>At vero eos et accusamus et <strong>iusto odio</strong> dignissimos ducimus, qui blanditiis praesentium
+                                voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, </p>
+                            <p>At vero eos et accusamus et <span><strong>iusto</strong></span> odio dignissimos ducimus, qui blanditiis praesentium
+                                voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, </p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="gamepad">
+                            <h3>veritatis et qua</h3>
+                            <p>atus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam e</p>
+                            <p>atus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam e</p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="battery">
+                            <h3>exercitationem</h3>
+                            <p>atus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam e</p>
+                            <p>atus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam e</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-6">
+
+
+                <div class="col-lg-7">
                     <div class="row">
-                        <div class="col-md-4 col-sm-6">
+                        <div class="col-lg-4 col-sm-6">
                             <div class="progress blue">
                                 <span class="progress-left">
                                     <span class="progress-bar"></span>
@@ -161,7 +208,7 @@
                             </div>
                             <p class="text-capitalize text-center">Branding</p>
                         </div>
-                        <div class="col-md-4 col-sm-6">
+                        <div class="col-lg-4 col-sm-6">
                             <div class="progress yellow">
                                 <span class="progress-left">
                                     <span class="progress-bar"></span>
@@ -173,7 +220,7 @@
                             </div>
                             <p class="text-capitalize text-center">Web desing</p>
                         </div>
-                        <div class="col-md-4 col-sm-6">
+                        <div class="col-lg-4 col-sm-6">
                             <div class="progress green">
                                 <span class="progress-left">
                                     <span class="progress-bar"></span>
@@ -186,6 +233,18 @@
                             <p class="text-uppercase text-center">UI/UX</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="telew">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+
+                </div>
+                <div class="col-lg-5">
+
                 </div>
             </div>
         </div>
