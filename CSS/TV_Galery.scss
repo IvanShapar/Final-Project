@@ -1,0 +1,39 @@
+@import "Costants";
+
+.TV {
+  padding: 80px 0 20px;
+  position: relative;
+  background-image: url("../Images/TV_bg.png");
+  .container {
+    .row {
+      .col-lg-7 {
+        h3 {
+          @extend .caption;
+          color: $back_color;
+          margin-bottom: 64px;
+        }
+        p{
+          @extend .text;
+          margin-bottom: 35px;
+          color:$text_color;
+          span{
+            color: $active_color;
+          }
+        }
+        h4{
+          @extend .text;
+          margin-bottom: 15px;
+          color: $text_color;
+        }
+
+      }
+      .col-lg-5 {
+        img {
+          position: relative;
+          width: 100%;
+          margin-top: -120px;
+        }
+      }
+    }
+  }
+}
