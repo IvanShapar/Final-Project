@@ -37,3 +37,37 @@
     }
   }
 }
+.galery{
+  padding: 80px 0 100px;
+  h3{
+    @extend .caption;
+    color: $caption_color;
+    margin-bottom: 45px;
+  }
+  p {
+    @extend .text;
+    color:$text_color;
+    margin-bottom: 110px;
+  }
+  .tabes{
+    display: block;
+    width: 630px;
+    margin: auto;
+    li{
+      display: inline;
+      a{
+        display: inline-block;
+        font-size: 16px;
+        font-family: $general_font_text;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid white;
+        &:hover{
+          border-bottom: 2px solid $active_color;
+          color:$caption_color;
+        }
+      }
+    }
+  }
+}
