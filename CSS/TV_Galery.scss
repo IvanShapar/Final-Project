@@ -53,6 +53,7 @@
     display: block;
     width: 630px;
     margin: auto;
+    margin-bottom: 60px;
     li{
       display: inline;
       a{
@@ -63,11 +64,34 @@
         margin-right: 15px;
         padding-bottom: 15px;
         border-bottom: 2px solid white;
+        position: relative;
         &:hover{
-          border-bottom: 2px solid $active_color;
+          //border-bottom: 2px solid $active_color;
           color:$caption_color;
+          &:after{
+            position:absolute;
+            top: 31px;
+            left: 28%;
+            width:50%;
+            border-bottom: 2px solid $active_color;
+            content:""}
         }
       }
     }
   }
 }
+//.tabs-contetnt{
+//  .tab-pane{
+//    .container{
+//      .gamma-container{
+//        ul{
+//          li{
+//            &:after{
+//
+//            }
+//          }
+//        }
+//      }
+//    }
+//  }
+//}
