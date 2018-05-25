@@ -47,6 +47,8 @@
   p {
     @extend .text;
     color:$text_color;
+    max-width: 467px;
+    margin: auto;
     margin-bottom: 110px;
   }
   .tabes{
@@ -80,18 +82,7 @@
     }
   }
 }
-//.tabs-contetnt{
-//  .tab-pane{
-//    .container{
-//      .gamma-container{
-//        ul{
-//          li{
-//            &:after{
-//
-//            }
-//          }
-//        }
-//      }
-//    }
-//  }
-//}
+.tabs-contetnt{
+  .tab-pane {
+    margin-bottom: 40px;
+  }}
