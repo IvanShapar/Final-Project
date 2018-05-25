@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ed11159-a209-4a9d-a21b-e2fa117da6b2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/CSS/TV_Galery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/TV_Galery.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/TV_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/img-7.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/TV_Galery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/TV_Galery.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +20,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.6580938">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="244">
-                  <caret line="334" column="57" selection-start-line="334" selection-start-column="57" selection-end-line="334" selection-end-column="57" />
+                <state relative-caret-position="204">
+                  <caret line="12" column="108" selection-start-line="12" selection-start-column="108" selection-end-line="12" selection-end-column="108" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/GammaGallery/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="159">
+                  <caret line="337" column="8" selection-start-line="337" selection-start-column="8" selection-end-line="398" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -30,7 +42,7 @@
             <entry file="file://$PROJECT_DIR$/CSS/Costants.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="85">
-                  <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+                  <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -42,8 +54,8 @@
           <file leaf-file-name="TV_Galery.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/CSS/TV_Galery.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="479">
-                  <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+                <state relative-caret-position="190">
+                  <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -75,8 +87,8 @@
         <option value="$PROJECT_DIR$/JS/script.js" />
         <option value="$PROJECT_DIR$/CSS/Progress_bar.scss" />
         <option value="$PROJECT_DIR$/CSS/style.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/CSS/TV_Galery.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -111,24 +123,6 @@
               <item name="Final_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Final_Project" type="462c0819:PsiDirectoryNode" />
               <item name="CSS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Final_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Final_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="header.scss" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="Final_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Final_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="Progress_bar.scss" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="Final_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Final_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="style.scss" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="Final_Project" type="b2602c69:ProjectViewProjectNode" />
@@ -183,7 +177,7 @@
       <workItem from="1526914406908" duration="487000" />
       <workItem from="1526915843861" duration="9462000" />
       <workItem from="1527184356440" duration="11933000" />
-      <workItem from="1527234896091" duration="9719000" />
+      <workItem from="1527234896091" duration="10837000" />
     </task>
     <task id="LOCAL-00001" summary="first section">
       <created>1526848467611</created>
@@ -234,14 +228,21 @@
       <option name="project" value="LOCAL" />
       <updated>1527246044563</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Gslery tabs">
+      <created>1527248622434</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1527248622434</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42880000" />
+    <option name="totallyTimeSpent" value="43998000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.16414523" />
@@ -280,7 +281,8 @@
     <MESSAGE value="progress bar done" />
     <MESSAGE value="progress bar tabs" />
     <MESSAGE value="TV section" />
-    <option name="LAST_COMMIT_MESSAGE" value="TV section" />
+    <MESSAGE value="Gslery tabs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gslery tabs" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -564,24 +566,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/TV_Galery.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/Costants.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="334" column="57" selection-start-line="334" selection-start-column="57" selection-end-line="334" selection-end-column="57" />
+        <state relative-caret-position="204">
+          <caret line="12" column="108" selection-start-line="12" selection-start-column="108" selection-end-line="12" selection-end-column="108" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/TV_Galery.scss">
+    <entry file="file://$PROJECT_DIR$/GammaGallery/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+        <state relative-caret-position="159">
+          <caret line="337" column="8" selection-start-line="337" selection-start-column="8" selection-end-line="398" selection-end-column="20" />
         </state>
       </provider>
     </entry>
