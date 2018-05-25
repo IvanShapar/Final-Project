@@ -39,6 +39,7 @@
 }
 .galery{
   padding: 80px 0 100px;
+  background-color: $back_color;
   h3{
     @extend .caption;
     color: $caption_color;
@@ -70,6 +71,9 @@
         &:hover{
           //border-bottom: 2px solid $active_color;
           color:$caption_color;
+          text-transform: none;
+          text-decoration: none;
+          color: $caption_color;
           &:after{
             position:absolute;
             top: 31px;
@@ -82,7 +86,35 @@
     }
   }
 }
-.tabs-contetnt{
-  .tab-pane {
-    margin-bottom: 40px;
-  }}
+//.tab-contetnt{
+//.tab-pane{
+//  .container{
+//    margin-bottom: 40px;
+//  }}}
+.container_mine{
+  max-width: 1110px;
+  margin: auto;
+  padding: 60px 0 57px;
+  background-image:url("../images/bg_n.png");
+  margin-top: 40px;
+  p{
+    font-size: 20px;
+    font-family: $general_font_text;
+    margin-bottom: 15px;
+    color:white;
+  }
+    a{
+      margin: auto;
+      display: block;
+      width: 140px;
+      height: 35px;
+      border: 1px solid white;
+      border-radius: 16px;
+      text-align: center;
+      line-height: 37px;
+      font-family: $general_font_text;
+      font-size: 16px;
+      color: white;
+    }
+
+}
