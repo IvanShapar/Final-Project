@@ -1,0 +1,11 @@
+@import "Costants";
+.first_carousel{
+padding: 80px 0 100px;
+  h3{
+    @extend .caption;
+  }
+
+.carousel-fun{
+  max-width: 1030px;
+  margin: auto;
+}}

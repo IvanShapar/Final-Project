@@ -2,108 +2,127 @@
 
 .TV {
   padding: 80px 0 20px;
+  @media screen and (max-device-width: 414px) {
+    padding: 30px 0 20px;
+  }
   position: relative;
   background-image: url("../Images/TV_bg.png");
+  background-repeat: no-repeat;
   .container {
-    .row {
-      .col-lg-7 {
-        h3 {
-          @extend .caption;
-          color: $back_color;
-          margin-bottom: 64px;
-        }
-        p{
-          @extend .text;
-          margin-bottom: 35px;
-          color:$text_color;
-          span{
-            color: $active_color;
-          }
-        }
-        h4{
-          @extend .text;
-          margin-bottom: 15px;
-          color: $text_color;
-        }
 
-      }
-      .col-lg-5 {
-        img {
-          position: relative;
-          width: 100%;
-          margin-top: -120px;
-        }
+    h3 {
+      @extend .caption;
+      color: $back_color;
+      margin-bottom: 64px;
+      @media screen and (max-device-width: 320px) {
+        margin-bottom: 30px;
       }
     }
+    p {
+      @extend .text;
+      margin-bottom: 35px;
+      color: $text_color;
+      span {
+        color: $active_color;
+      }
+    }
+    h4 {
+      @extend .text;
+      margin-bottom: 15px;
+      color: $text_color;
+    }
+
+  }
+
+  img {
+    position: relative;
+    margin-top: -120px;
+    max-width: content-box;
   }
 }
-.galery{
+
+.galery {
   padding: 80px 0 100px;
   background-color: $back_color;
-  h3{
+  h3 {
     @extend .caption;
     color: $caption_color;
     margin-bottom: 45px;
   }
   p {
     @extend .text;
-    color:$text_color;
-    max-width: 467px;
-    margin: auto;
+    color: $text_color;
+    //max-width: 467px;
+    //margin: auto;
     margin-bottom: 110px;
   }
-  .tabes{
+  .tabes {
     display: block;
-    width: 630px;
-    margin: auto;
+    //max-width: 630px;
+    //margin: auto;
     margin-bottom: 60px;
-    li{
+    li {
       display: inline;
-      a{
+      a {
         display: inline-block;
         font-size: 16px;
         font-family: $general_font_text;
         margin-left: 15px;
         margin-right: 15px;
         padding-bottom: 15px;
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid $back_color;
         position: relative;
-        &:hover{
+        &:hover {
           //border-bottom: 2px solid $active_color;
-          color:$caption_color;
+          color: $caption_color;
           text-transform: none;
           text-decoration: none;
-          color: $caption_color;
-          &:after{
-            position:absolute;
+          &:after {
+            position: absolute;
             top: 31px;
             left: 28%;
-            width:50%;
+            width: 50%;
             border-bottom: 2px solid $active_color;
-            content:""}
+            content: ""
+          }
+        }
+      }
+
+    }
+    .active {
+      a {
+        display: inline-block;
+        font-size: 16px;
+        font-family: $general_font_text;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid $back_color;
+        position: relative;
+        color: $caption_color;
+        text-decoration: none;
+        &:after {
+          position: absolute;
+          top: 31px;
+          left: 28%;
+          width: 50%;
+          border-bottom: 2px solid $active_color;
+          content: ""
         }
       }
     }
   }
-}
-//.tab-contetnt{
-//.tab-pane{
-//  .container{
-//    margin-bottom: 40px;
-//  }}}
-.container_mine{
-  max-width: 1110px;
-  margin: auto;
-  padding: 60px 0 57px;
-  background-image:url("../images/bg_n.png");
-  margin-top: 40px;
-  p{
-    font-size: 20px;
-    font-family: $general_font_text;
-    margin-bottom: 15px;
-    color:white;
-  }
-    a{
+  .mine {
+    padding: 60px 0 57px;
+    background-image: url("../images/bg_n.png");
+    margin-top: 40px;
+    p {
+      font-size: 20px;
+      font-family: $general_font_text;
+      margin-bottom: 15px;
+      color: white;
+    }
+    a {
       margin: auto;
       display: block;
       width: 140px;
@@ -115,6 +134,10 @@
       font-family: $general_font_text;
       font-size: 16px;
       color: white;
+      &:visited {
+        text-decoration: none;
+      }
     }
 
+  }
 }

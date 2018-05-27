@@ -14,3 +14,11 @@ $back_color:#f3f3f3;
   font-family: $general_font_text;
   line-height: 1.786;
 }
+@mixin media-max($max-width){
+@media only screen and (max-device-width:$max-width ){
+  @content
+}}
+@mixin media-min($min-width){
+  @media only screen and (min-device-width:$min-width ){
+    @content
+  }}

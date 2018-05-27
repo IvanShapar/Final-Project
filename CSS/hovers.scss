@@ -50,6 +50,9 @@
         }
         .one {
           background-image: url(../Images/img-1.png);
+          background-repeat: no-repeat;
+          background-attachment: scroll;
+          background-size: cover;
           &:after {
             content: "+";
             @extend .caption;
@@ -58,6 +61,9 @@
         }
         .two {
           background-image: url(../Images/img-2.png);
+          background-repeat: no-repeat;
+          background-attachment: scroll;
+          background-size: cover;
           &:after {
             content: "Vintage";
             @extend .caption;
@@ -65,6 +71,10 @@
         }
         .three {
           background-image: url(../Images/img-3.png);
+          background-repeat: no-repeat;
+          background-attachment: scroll;
+          background-size: cover;
+          overflow:hidden;
           &:after {
             content: "Branding";
             @extend .caption;
@@ -79,10 +89,16 @@
   background-image: url("../Images/shooz.png");
   height: 110px;
   padding-top: 35px;
+  @include media-max(1024px){
+    padding-top: 5px;
+  }
   p {
     @extend .text;
     color: white;
     margin-top: 10px;
+    @include media-max(414px){
+      margin-top: 5px;
+    }
   }
   a{
     display: block;

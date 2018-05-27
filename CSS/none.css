@@ -11,6 +11,11 @@ a {outline:none;
     font-size:11px;
     color:#2d2a2b ;
 }
+a:visited{
+    outline:none;
+    text-transform: none;
+    text-decoration: none;
+    border-bottom: none}
 a:hover{
     outline:none;
     text-decoration:none;

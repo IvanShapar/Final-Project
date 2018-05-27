@@ -10,6 +10,7 @@
   position: relative;
   margin-bottom: 28px;
 
+
 }
 .progress:after{
   content: "";
@@ -20,6 +21,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  box-shadow: none;
 }
 .progress > span{
   width: 50%;
@@ -28,9 +30,11 @@
   position: absolute;
   top: 0;
   z-index: 1;
+  box-shadow: none;
 }
 .progress .progress-left{
   left: 0;
+  box-shadow: none;
 }
 .progress .progress-bar{
   width: 100%;
@@ -39,6 +43,7 @@
   border-width: 4px;
   border-style: solid;
   position: absolute;
+  box-shadow: none;
   top: 0;
 }
 .progress .progress-left .progress-bar{
@@ -48,6 +53,7 @@
   border-left: 0;
   -webkit-transform-origin: center left;
   transform-origin: center left;
+  box-shadow: none;
   animation: loading-1 1.8s linear forwards;
 }
 .progress .progress-right{
@@ -60,6 +66,7 @@
   border-right: 0;
   -webkit-transform-origin: center right;
   transform-origin: center right;
+  box-shadow: none;
   //animation: loading-1 1.8s linear forwards;
 }
 .progress .progress-value{
@@ -150,7 +157,8 @@
   }
 }
 @media only screen and (max-width: 990px){
-  .progress{ margin-bottom: 20px; }
+  .progress{ margin-bottom: 20px;
+  }
 }
 .progressbars{
   padding: 80px 0 150px;
@@ -163,9 +171,20 @@
   p{
     @extend .text;
     margin-bottom: 65px;
+    @include media-max(1200px){
+      margin-bottom: 10px;
+
+    }
   }
-  .row{
-    .col-lg-3{
+
+  @include media-max(1200px){
+    li{
+      display: inline;
+      margin: 0 10px;
+
+    }
+  }
+  .content{
       h3{
         font-family: $general_font_text;
         font-size: 20px;
@@ -180,11 +199,10 @@
         }
       }
     }
-    .col-lg-7{
+    .progbar{
       .row{
           padding-top: 55px;
 
-        .col-lg-4{
           p{
             font-size: 16px;
             font-family: 'Roboto', sans-serif;
@@ -193,11 +211,8 @@
         }
       }
     }
-  }
-}
-.col-lg-1{
-margin-left: 50px;
-}
+
+
 .button{
     display: inline-block;
     width: 53px;
