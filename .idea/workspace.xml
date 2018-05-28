@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ed11159-a209-4a9d-a21b-e2fa117da6b2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS/first_carousel_item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/first_carousel_item.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/first_carousel_item.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/second-carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/second-carousel.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/first_imag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/imad-bg-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/imad-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/imag-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/imag-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/imfg-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/second-imag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/separate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/thord-imag.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/Costants.scss" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Costants.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/First_carusel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/First_carusel.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/second-carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/second-carousel.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,10 +22,9 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="123">
-                  <caret line="800" selection-start-line="800" selection-end-line="800" />
+                <state relative-caret-position="173">
+                  <caret line="838" column="39" selection-start-line="838" selection-start-column="39" selection-end-line="838" selection-end-column="39" />
                   <folding>
-                    <element signature="e#575#713#0" />
                     <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -54,14 +36,24 @@
                     <element signature="n#section#7;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#section#7;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#9;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#9;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#9;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#section#9;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <marker date="1527505988909" expanded="true" signature="34677:45200" ph="..." />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#10;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#10;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#section#10;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <marker date="1527515312109" expanded="true" signature="34677:46126" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -70,8 +62,8 @@
           <file leaf-file-name="Costants.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/CSS/Costants.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+                <state relative-caret-position="391">
+                  <caret line="23" column="56" lean-forward="true" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
                 </state>
               </provider>
             </entry>
@@ -92,8 +84,8 @@
           <file leaf-file-name="second-carousel.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/CSS/second-carousel.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="697">
-                  <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+                <state relative-caret-position="207">
+                  <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -138,8 +130,8 @@
         <option value="$PROJECT_DIR$/CSS/style.scss" />
         <option value="$PROJECT_DIR$/CSS/Costants.scss" />
         <option value="$PROJECT_DIR$/CSS/First_carusel.scss" />
-        <option value="$PROJECT_DIR$/CSS/second-carousel.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/CSS/second-carousel.scss" />
       </list>
     </option>
   </component>
@@ -153,7 +145,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="517" />
+    <option name="y" value="148" />
     <option name="width" value="825" />
     <option name="height" value="728" />
   </component>
@@ -239,7 +232,8 @@
       <workItem from="1527265355201" duration="6083000" />
       <workItem from="1527317494715" duration="6282000" />
       <workItem from="1527424194403" duration="7735000" />
-      <workItem from="1527490098539" duration="9949000" />
+      <workItem from="1527490098539" duration="10390000" />
+      <workItem from="1527512692074" duration="2531000" />
     </task>
     <task id="LOCAL-00001" summary="first section">
       <created>1526848467611</created>
@@ -339,14 +333,21 @@
       <option name="project" value="LOCAL" />
       <updated>1527499424451</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="+вторая карусель">
+      <created>1527506407486</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1527506407486</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75922000" />
+    <option name="totallyTimeSpent" value="78894000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="-8" width="1318" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.16414523" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -417,7 +418,8 @@
     <MESSAGE value="Половина готова(доработать)" />
     <MESSAGE value="Половина.Галерея включительно доведено до ума. По моему мнению на всех устройсвах смотрится не плохо" />
     <MESSAGE value="+первая карусель" />
-    <option name="LAST_COMMIT_MESSAGE" value="+первая карусель" />
+    <MESSAGE value="+вторая карусель" />
+    <option name="LAST_COMMIT_MESSAGE" value="+вторая карусель" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/GammaGallery/index.html">
@@ -743,13 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/Costants.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/First_carusel.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -757,19 +752,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/second-carousel.scss">
+    <entry file="file://$PROJECT_DIR$/CSS/Costants.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="391">
+          <caret line="23" column="56" lean-forward="true" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="800" selection-start-line="800" selection-end-line="800" />
+        <state relative-caret-position="173">
+          <caret line="838" column="39" selection-start-line="838" selection-start-column="39" selection-end-line="838" selection-end-column="39" />
           <folding>
-            <element signature="e#575#713#0" />
             <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -781,15 +775,32 @@
             <element signature="n#section#7;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#section#7;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#9;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#9;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#9;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#section#9;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <marker date="1527505988909" expanded="true" signature="34677:45200" ph="..." />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#10;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#10;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#section#10;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <marker date="1527515312109" expanded="true" signature="34677:46126" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/second-carousel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
         </state>
       </provider>
     </entry>

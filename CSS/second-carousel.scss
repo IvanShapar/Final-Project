@@ -39,3 +39,74 @@
     }
   }
 }}
+.third-carousel{
+  background-image: url("../images/imad-bg.png");
+  background-repeat: no-repeat;
+  padding: 80px 0 80px;
+  @include media-max(414px){
+    padding: 20px 0 20px;
+  }
+  .item_content {
+    h3{
+      @extend .caption;
+      margin-bottom: 35px;
+      color: white;
+    }
+    p{
+      @extend .text;
+      margin-bottom: 60px;
+      @include media-max(414px){
+        margin-bottom: 30px;
+      }
+
+    }
+    .second{
+      h3{
+        font-family: $general_font_text;
+        font-size: 20px;
+        margin-bottom: 17px;
+      }
+      p{
+        font-size: 14px;
+        font-family: $general_font_caption;
+        margin-bottom: 15px;
+        span{
+          color:$active_color;
+        }
+      }
+      .likes{
+        color: #464646;
+        display: block;
+        font-family: $general_font_caption;
+        font-size: 14px;
+        margin-bottom: 40px;
+      }
+      .a_lot_of_text{
+        @extend .text;
+        margin-bottom: 40px;
+      }
+      a{
+        font-size: 16px;
+        font-family: $general_font_text;
+        color: #818282;
+      }
+    }
+  }
+  .carousel-indicators{
+    position: absolute;
+    left: 95%;
+    top:50%;
+    z-index: 15;
+    width: 15px;
+    height: 35px;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: center;
+    list-style: none;
+
+  }
+  .carousel-indicators li{
+    display: block;
+  }
+
+}
