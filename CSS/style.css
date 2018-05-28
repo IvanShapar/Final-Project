@@ -1,12 +1,14 @@
 @import url(none.css);
-.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3 {
+.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3 {
   font-size: 20px;
-  font-family: "Source Sans Pro"; }
+  font-family: "Source Sans Pro";
+  color: #333b46; }
 
-.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p {
+.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p {
   font-size: 14px;
   font-family: "Open Sans";
-  line-height: 1.786; }
+  line-height: 1.786;
+  color: #81868e; }
 
 header {
   padding-top: 40px;
@@ -41,14 +43,16 @@ header {
     header .navbar-brand img {
       margin-bottom: 6px; }
 
-.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3 {
+.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3 {
   font-size: 20px;
-  font-family: "Source Sans Pro"; }
+  font-family: "Source Sans Pro";
+  color: #333b46; }
 
-.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p {
+.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p {
   font-size: 14px;
   font-family: "Open Sans";
-  line-height: 1.786; }
+  line-height: 1.786;
+  color: #81868e; }
 
 .banner {
   background-image: url(../Images/banner.png);
@@ -146,14 +150,16 @@ header {
     font-size: 14px;
     line-height: 1.786; }
 
-.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3 {
+.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3 {
   font-size: 20px;
-  font-family: "Source Sans Pro"; }
+  font-family: "Source Sans Pro";
+  color: #333b46; }
 
-.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p {
+.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p {
   font-size: 14px;
   font-family: "Open Sans";
-  line-height: 1.786; }
+  line-height: 1.786;
+  color: #81868e; }
 
 .hovers {
   padding-top: 80px; }
@@ -233,14 +239,16 @@ header {
     font-size: 16px;
     color: white; }
 
-.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3 {
+.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3 {
   font-size: 20px;
-  font-family: "Source Sans Pro"; }
+  font-family: "Source Sans Pro";
+  color: #333b46; }
 
-.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p {
+.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p {
   font-size: 14px;
   font-family: "Open Sans";
-  line-height: 1.786; }
+  line-height: 1.786;
+  color: #81868e; }
 
 .progressbars {
   padding: 80px 0 150px;
@@ -400,14 +408,16 @@ header {
   .progressbars .active .button {
     background-color: #19bd9a; }
 
-.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3 {
+.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3 {
   font-size: 20px;
-  font-family: "Source Sans Pro"; }
+  font-family: "Source Sans Pro";
+  color: #333b46; }
 
-.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p {
+.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p {
   font-size: 14px;
   font-family: "Open Sans";
-  line-height: 1.786; }
+  line-height: 1.786;
+  color: #81868e; }
 
 .TV {
   padding: 80px 0 20px;
@@ -512,23 +522,27 @@ header {
       .galery .mine a:visited {
         text-decoration: none; }
 
-.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3 {
+.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3 {
   font-size: 20px;
-  font-family: "Source Sans Pro"; }
+  font-family: "Source Sans Pro";
+  color: #333b46; }
 
-.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p {
+.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p {
   font-size: 14px;
   font-family: "Open Sans";
-  line-height: 1.786; }
+  line-height: 1.786;
+  color: #81868e; }
 
-.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3 {
+.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3 {
   font-size: 20px;
-  font-family: "Source Sans Pro"; }
+  font-family: "Source Sans Pro";
+  color: #333b46; }
 
-.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p {
+.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p {
   font-size: 14px;
   font-family: "Open Sans";
-  line-height: 1.786; }
+  line-height: 1.786;
+  color: #81868e; }
 
 .first_carousel .item .left-text {
   border-right: 4px solid #19bd9a;
@@ -578,7 +592,7 @@ header {
   background-image: none; }
 
 .first_carousel {
-  padding: 80px 0 169px; }
+  padding: 80px 0 0; }
   .first_carousel h3 {
     margin-bottom: 44px; }
   .first_carousel p {
@@ -614,5 +628,42 @@ header {
     color: white; }
     .separation a:visited {
       text-decoration: none; }
+
+.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3 {
+  font-size: 20px;
+  font-family: "Source Sans Pro";
+  color: #333b46; }
+
+.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p {
+  font-size: 14px;
+  font-family: "Open Sans";
+  line-height: 1.786;
+  color: #81868e; }
+
+.second-carousel {
+  padding: 80px 0 65px;
+  background-color: #f3f3f3; }
+  .second-carousel h3 {
+    margin-bottom: 44px; }
+  .second-carousel p {
+    margin-bottom: 65px; }
+  @media screen and (min-width: 768px) {
+    .second-carousel .carousel-indicators {
+      bottom: 55px; } }
+  .second-carousel .carousel-indicators li {
+    border: 1px solid #19bd9a; }
+  .second-carousel .carousel-indicators .active {
+    background-color: #19bd9a; }
+  .second-carousel .item .item_content {
+    padding-top: 55px;
+    padding-bottom: 85px;
+    background-color: white; }
+    .second-carousel .item .item_content p {
+      margin-bottom: 35px; }
+    .second-carousel .item .item_content span {
+      display: block;
+      font-size: 16px;
+      font-family: "Open Sans";
+      margin-bottom: 12px; }
 
 /*# sourceMappingURL=style.css.map */

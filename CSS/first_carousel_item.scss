@@ -1,0 +1,71 @@
+@import 'Costants';
+
+.first_carousel {
+  .item {
+
+      .left-text {
+
+        border-right: 4px solid $active_color;
+        padding-right: 50px;
+        h3 {
+          font-family: $general_font_text;
+          margin-bottom: 10px;
+          font-size: 20px;
+        }
+        span {
+          display: block;
+          font-family: $general_font_caption;
+          font-size: 14px;
+          margin-bottom: 15px;
+        }
+      }
+    p{
+      @extend .text;
+      width: 100%;
+      padding-right: 50px;
+      margin-bottom: 30px;
+    }
+      .progressbar_label {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 9px;
+        font-size: 16px;
+        font-family: $general_font_caption;
+      }
+
+      .First-progrbar {
+        padding-right: 50px;
+        .progress-bar {
+          width: 80%;
+        }
+      }
+
+      .second-progrbar {
+        padding-right: 50px;
+        .progress-bar {
+          width: 65%;
+        }
+      }
+
+      .third-progrbar {
+        padding-right: 50px;
+        .progress-bar {
+          width: 75%;
+        }
+      }
+    }
+    .progress {
+      height: 4px;
+      color: #e1e4e9;
+      box-shadow: none;
+      -webkit-box-shadow: none;
+      border-radius: 0;
+    }
+    .progress-bar {
+      height: 4px;
+      background-color: $active_color;
+      box-shadow: none;
+      margin-bottom: 35px;
+      background-image: none;
+    }
+  }

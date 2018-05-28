@@ -1,0 +1,55 @@
+.caption {
+  font-size: 20px;
+  font-family: "Source Sans Pro"; }
+
+.text {
+  font-size: 14px;
+  font-family: "Open Sans";
+  line-height: 1.786; }
+
+.item_content .left-text {
+  border-right: 4px solid #19bd9a;
+  padding-right: 50px; }
+  .item_content .left-text h3 {
+    font-family: "Open Sans";
+    margin-bottom: 15px;
+    font-size: 20px; }
+  .item_content .left-text span {
+    display: block;
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    margin-bottom: 35px; }
+.item_content .progressbar_label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 9px;
+  font-size: 16px;
+  font-family: "Source Sans Pro"; }
+.item_content .First-progrbar {
+  padding-right: 50px; }
+  .item_content .First-progrbar .progress-bar {
+    width: 80%; }
+.item_content .second-progrbar {
+  padding-right: 50px; }
+  .item_content .second-progrbar .progress-bar {
+    width: 65%; }
+.item_content .third-progrbar {
+  padding-right: 50px; }
+  .item_content .third-progrbar .progress-bar {
+    width: 75%; }
+
+.progress {
+  height: 4px;
+  color: #e1e4e9;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border-radius: 0; }
+
+.progress-bar {
+  height: 4px;
+  background-color: #19bd9a;
+  box-shadow: none;
+  margin-bottom: 65px;
+  background-image: none; }
+
+/*# sourceMappingURL=first_carousel_item.css.map */

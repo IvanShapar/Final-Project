@@ -1,0 +1,41 @@
+@import "Costants";
+.second-carousel{
+  padding: 80px 0 65px;
+  background-color: $back_color;
+  h3 {
+    @extend .caption;
+    margin-bottom: 44px;
+  }
+  p {
+    @extend .text;
+    margin-bottom: 65px;
+  }
+  .carousel-indicators{
+    @media screen and (min-width: 768px){
+
+      bottom: 55px;
+    }
+  }
+  .carousel-indicators li {
+    border: 1px solid $active_color;
+  }
+  .carousel-indicators .active {
+    background-color: $active_color;
+  }
+  .item{
+  .item_content{
+      padding-top: 55px;
+    padding-bottom: 85px;
+      background-color: white;
+    p{
+      @extend .text;
+      margin-bottom: 35px;
+    }
+    span{
+      display: block;
+      font-size: 16px;
+      font-family: $general_font_text;
+      margin-bottom: 12px;
+    }
+  }
+}}
