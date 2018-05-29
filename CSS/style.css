@@ -1,14 +1,23 @@
 @import url(none.css);
-.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3, .third-carousel .item_content h3 {
+.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3, .third-carousel .item_content h3, .subscribe h3 {
   font-size: 20px;
   font-family: "Source Sans Pro";
   color: #333b46; }
 
-.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p, .third-carousel .item_content p, .third-carousel .item_content .second .a_lot_of_text {
+.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p, .third-carousel .item_content p, .third-carousel .item_content .second .a_lot_of_text, .subscribe p, .subscribe .my-form .form-group input, .subscribe .my-form button, .contact_us span, .contact_us_form .left-one, .contact_us_form .right-one, .contact_us_form .center_one, .map:after {
   font-size: 14px;
   font-family: "Open Sans";
   line-height: 1.786;
   color: #81868e; }
+
+.round, footer .facebook, footer .twitter, footer .in, footer .instagram, footer .v {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  color: white;
+  margin: 0 5px;
+  line-height: 27px; }
 
 header {
   padding-top: 40px;
@@ -43,16 +52,25 @@ header {
     header .navbar-brand img {
       margin-bottom: 6px; }
 
-.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3, .third-carousel .item_content h3 {
+.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3, .third-carousel .item_content h3, .subscribe h3 {
   font-size: 20px;
   font-family: "Source Sans Pro";
   color: #333b46; }
 
-.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p, .third-carousel .item_content p, .third-carousel .item_content .second .a_lot_of_text {
+.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p, .third-carousel .item_content p, .third-carousel .item_content .second .a_lot_of_text, .subscribe p, .subscribe .my-form .form-group input, .subscribe .my-form button, .contact_us span, .contact_us_form .left-one, .contact_us_form .right-one, .contact_us_form .center_one, .map:after {
   font-size: 14px;
   font-family: "Open Sans";
   line-height: 1.786;
   color: #81868e; }
+
+.round, footer .facebook, footer .twitter, footer .in, footer .instagram, footer .v {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  color: white;
+  margin: 0 5px;
+  line-height: 27px; }
 
 .banner {
   background-image: url(../Images/banner.png);
@@ -150,16 +168,25 @@ header {
     font-size: 14px;
     line-height: 1.786; }
 
-.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3, .third-carousel .item_content h3 {
+.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3, .third-carousel .item_content h3, .subscribe h3 {
   font-size: 20px;
   font-family: "Source Sans Pro";
   color: #333b46; }
 
-.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p, .third-carousel .item_content p, .third-carousel .item_content .second .a_lot_of_text {
+.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p, .third-carousel .item_content p, .third-carousel .item_content .second .a_lot_of_text, .subscribe p, .subscribe .my-form .form-group input, .subscribe .my-form button, .contact_us span, .contact_us_form .left-one, .contact_us_form .right-one, .contact_us_form .center_one, .map:after {
   font-size: 14px;
   font-family: "Open Sans";
   line-height: 1.786;
   color: #81868e; }
+
+.round, footer .facebook, footer .twitter, footer .in, footer .instagram, footer .v {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  color: white;
+  margin: 0 5px;
+  line-height: 27px; }
 
 .hovers {
   padding-top: 80px; }
@@ -239,16 +266,25 @@ header {
     font-size: 16px;
     color: white; }
 
-.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3, .third-carousel .item_content h3 {
+.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3, .third-carousel .item_content h3, .subscribe h3 {
   font-size: 20px;
   font-family: "Source Sans Pro";
   color: #333b46; }
 
-.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p, .third-carousel .item_content p, .third-carousel .item_content .second .a_lot_of_text {
+.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p, .third-carousel .item_content p, .third-carousel .item_content .second .a_lot_of_text, .subscribe p, .subscribe .my-form .form-group input, .subscribe .my-form button, .contact_us span, .contact_us_form .left-one, .contact_us_form .right-one, .contact_us_form .center_one, .map:after {
   font-size: 14px;
   font-family: "Open Sans";
   line-height: 1.786;
   color: #81868e; }
+
+.round, footer .facebook, footer .twitter, footer .in, footer .instagram, footer .v {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  color: white;
+  margin: 0 5px;
+  line-height: 27px; }
 
 .progressbars {
   padding: 80px 0 150px;
@@ -408,16 +444,25 @@ header {
   .progressbars .active .button {
     background-color: #19bd9a; }
 
-.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3, .third-carousel .item_content h3 {
+.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3, .third-carousel .item_content h3, .subscribe h3 {
   font-size: 20px;
   font-family: "Source Sans Pro";
   color: #333b46; }
 
-.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p, .third-carousel .item_content p, .third-carousel .item_content .second .a_lot_of_text {
+.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p, .third-carousel .item_content p, .third-carousel .item_content .second .a_lot_of_text, .subscribe p, .subscribe .my-form .form-group input, .subscribe .my-form button, .contact_us span, .contact_us_form .left-one, .contact_us_form .right-one, .contact_us_form .center_one, .map:after {
   font-size: 14px;
   font-family: "Open Sans";
   line-height: 1.786;
   color: #81868e; }
+
+.round, footer .facebook, footer .twitter, footer .in, footer .instagram, footer .v {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  color: white;
+  margin: 0 5px;
+  line-height: 27px; }
 
 .TV {
   padding: 80px 0 20px;
@@ -522,27 +567,45 @@ header {
       .galery .mine a:visited {
         text-decoration: none; }
 
-.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3, .third-carousel .item_content h3 {
+.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3, .third-carousel .item_content h3, .subscribe h3 {
   font-size: 20px;
   font-family: "Source Sans Pro";
   color: #333b46; }
 
-.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p, .third-carousel .item_content p, .third-carousel .item_content .second .a_lot_of_text {
+.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p, .third-carousel .item_content p, .third-carousel .item_content .second .a_lot_of_text, .subscribe p, .subscribe .my-form .form-group input, .subscribe .my-form button, .contact_us span, .contact_us_form .left-one, .contact_us_form .right-one, .contact_us_form .center_one, .map:after {
   font-size: 14px;
   font-family: "Open Sans";
   line-height: 1.786;
   color: #81868e; }
 
-.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3, .third-carousel .item_content h3 {
+.round, footer .facebook, footer .twitter, footer .in, footer .instagram, footer .v {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  color: white;
+  margin: 0 5px;
+  line-height: 27px; }
+
+.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3, .third-carousel .item_content h3, .subscribe h3 {
   font-size: 20px;
   font-family: "Source Sans Pro";
   color: #333b46; }
 
-.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p, .third-carousel .item_content p, .third-carousel .item_content .second .a_lot_of_text {
+.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p, .third-carousel .item_content p, .third-carousel .item_content .second .a_lot_of_text, .subscribe p, .subscribe .my-form .form-group input, .subscribe .my-form button, .contact_us span, .contact_us_form .left-one, .contact_us_form .right-one, .contact_us_form .center_one, .map:after {
   font-size: 14px;
   font-family: "Open Sans";
   line-height: 1.786;
   color: #81868e; }
+
+.round, footer .facebook, footer .twitter, footer .in, footer .instagram, footer .v {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  color: white;
+  margin: 0 5px;
+  line-height: 27px; }
 
 .first_carousel .item .left-text {
   border-right: 4px solid #19bd9a;
@@ -629,16 +692,25 @@ header {
     .separation a:visited {
       text-decoration: none; }
 
-.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3, .third-carousel .item_content h3 {
+.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3, .third-carousel .item_content h3, .subscribe h3 {
   font-size: 20px;
   font-family: "Source Sans Pro";
   color: #333b46; }
 
-.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p, .third-carousel .item_content p, .third-carousel .item_content .second .a_lot_of_text {
+.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p, .third-carousel .item_content p, .third-carousel .item_content .second .a_lot_of_text, .subscribe p, .subscribe .my-form .form-group input, .subscribe .my-form button, .contact_us span, .contact_us_form .left-one, .contact_us_form .right-one, .contact_us_form .center_one, .map:after {
   font-size: 14px;
   font-family: "Open Sans";
   line-height: 1.786;
   color: #81868e; }
+
+.round, footer .facebook, footer .twitter, footer .in, footer .instagram, footer .v {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  color: white;
+  margin: 0 5px;
+  line-height: 27px; }
 
 .second-carousel {
   padding: 80px 0 65px;
@@ -716,5 +788,208 @@ header {
     list-style: none; }
   .third-carousel .carousel-indicators li {
     display: block; }
+
+.caption, .hovers h3, .hovers .ALL .container-fluid .row .one:after, .hovers .ALL .container-fluid .row .two:after, .hovers .ALL .container-fluid .row .three:after, .progressbars h3, .TV .container h3, .galery h3, .first_carousel h3, .second-carousel h3, .third-carousel .item_content h3, .subscribe h3 {
+  font-size: 20px;
+  font-family: "Source Sans Pro";
+  color: #333b46; }
+
+.text, .hovers p, .shooz p, .progressbars p, .progressbars .content p, .TV .container p, .TV .container h4, .galery p, .first_carousel .item p, .first_carousel p, .second-carousel p, .second-carousel .item .item_content p, .third-carousel .item_content p, .third-carousel .item_content .second .a_lot_of_text, .subscribe p, .subscribe .my-form .form-group input, .subscribe .my-form button, .contact_us span, .contact_us_form .left-one, .contact_us_form .right-one, .contact_us_form .center_one, .map:after {
+  font-size: 14px;
+  font-family: "Open Sans";
+  line-height: 1.786;
+  color: #81868e; }
+
+.round, footer .facebook, footer .twitter, footer .in, footer .instagram, footer .v {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  color: white;
+  margin: 0 5px;
+  line-height: 27px; }
+
+.subscribe {
+  padding: 80px 0 100px;
+  background-image: url("../images/imad-bg-2.png"); }
+  @media only screen and (max-device-width: 414px) {
+    .subscribe {
+      padding: 40px 0 50px; } }
+  .subscribe h3 {
+    margin-bottom: 35px;
+    color: white; }
+  .subscribe p {
+    margin-bottom: 50px; }
+  .subscribe .my-form {
+    max-width: 520px;
+    margin: auto;
+    height: 40px; }
+    .subscribe .my-form .form-group {
+      display: inline-block;
+      width: 68.68%;
+      margin-right: 9px;
+      margin-bottom: 0;
+      height: 40px; }
+      @media only screen and (max-device-width: 414px) {
+        .subscribe .my-form .form-group {
+          margin-right: 0; } }
+      .subscribe .my-form .form-group input {
+        border: 1px solid #81868e;
+        padding-left: 22px;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 0;
+        height: 40px; }
+    .subscribe .my-form button {
+      display: inline-block;
+      height: 40px;
+      width: 28.84%;
+      border-radius: 0;
+      box-shadow: none;
+      background-color: #19bd9a;
+      color: white; }
+
+.contact_us {
+  padding: 55px 0 100px;
+  background-color: #f3f3f3; }
+  .contact_us .left-one {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px; }
+    @media only screen and (max-device-width: 414px) {
+      .contact_us .left-one {
+        justify-content: center; } }
+  .contact_us .right-one {
+    display: flex;
+    margin-bottom: 15px; }
+    @media only screen and (max-device-width: 414px) {
+      .contact_us .right-one {
+        justify-content: center; } }
+  .contact_us .center_one {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px; }
+  .contact_us .left_bl {
+    max-width: 288px;
+    background-color: white;
+    padding-bottom: 30px; }
+  .contact_us .right_bl {
+    max-width: 288px;
+    background-color: white;
+    padding-bottom: 30px; }
+  .contact_us .center_bl {
+    max-width: 288px;
+    background-color: white;
+    padding-bottom: 30px; }
+  .contact_us span {
+    display: block; }
+  .contact_us h5 {
+    margin: 32px 0 25px;
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: #333b46; }
+
+.contact_us_form {
+  padding: 80px 0 130px; }
+  .contact_us_form .left-one {
+    display: flex;
+    justify-content: flex-end; }
+    @media only screen and (max-device-width: 414px) {
+      .contact_us_form .left-one {
+        justify-content: center; } }
+  .contact_us_form .right-one {
+    display: flex;
+    justify-content: flex-start; }
+    @media only screen and (max-device-width: 414px) {
+      .contact_us_form .right-one {
+        justify-content: center; } }
+  .contact_us_form .center_one {
+    font-size: 16px;
+    font-family: "Open Sans";
+    display: flex;
+    justify-content: center; }
+  .contact_us_form .textarea {
+    max-width: 990px;
+    margin: auto;
+    margin-bottom: 30px; }
+    .contact_us_form .textarea .my_textarea {
+      resize: none;
+      width: 100%;
+      height: 188px;
+      border-radius: 0;
+      box-shadow: none; }
+  .contact_us_form .mine {
+    max-width: 1000px;
+    margin: auto;
+    height: 53px; }
+    .contact_us_form .mine .mine__btn {
+      width: 100%;
+      border-radius: 0;
+      border-color: #19bd9a;
+      box-shadow: none;
+      background-color: #19bd9a;
+      font-size: 16px;
+      font-family: "Open Sans"; }
+  .contact_us_form .width {
+    border-radius: 0;
+    box-shadow: none;
+    width: 285px; }
+    @media only screen and (max-device-width: 768px) {
+      .contact_us_form .width {
+        width: 228px; } }
+    @media only screen and (max-device-width: 414px) {
+      .contact_us_form .width {
+        width: 310px; } }
+
+.map {
+  overflow: hidden;
+  position: relative;
+  height: 500px; }
+  @media only screen and (max-device-width: 414px) {
+    .map {
+      height: 200px; } }
+  .map:after {
+    content: "Find us on the map";
+    color: white;
+    padding-top: 250px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: 0.8; }
+    @media only screen and (max-device-width: 414px) {
+      .map:after {
+        padding-top: 100px; } }
+  .map:hover:after {
+    display: none; }
+  .map iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute; }
+
+footer {
+  background-color: #f3f3f3;
+  padding: 80px 0 90px; }
+  footer img {
+    margin-bottom: 25px; }
+  footer p {
+    margin-bottom: 40px; }
+  footer .facebook {
+    background-color: #3b5998; }
+  footer .twitter {
+    background-color: #26a6d1; }
+  footer .in {
+    background-color: #0e76a8; }
+  footer .instagram {
+    background-color: #3f729b; }
+  footer .v {
+    background-color: #86c9ef; }
 
 /*# sourceMappingURL=style.css.map */
