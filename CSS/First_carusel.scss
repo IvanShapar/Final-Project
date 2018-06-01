@@ -1,4 +1,4 @@
-@import "Costants";
+
 @import "first_carousel_item";
 
 .first_carousel {
@@ -28,6 +28,7 @@
   margin-top: 170px;
   padding: 60px 0 57px;
   background-image: url("../images/separate.png");
+  background-size: cover;
 
   p {
     font-size: 20px;

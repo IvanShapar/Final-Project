@@ -943,6 +943,81 @@
 
         </div>
     </section>
+    <section class="price">
+        <h3 class="text-center text-uppercase">Our price</h3>
+        <p class="text-center">At vero eos et accusamus et iusto odio dignissimos ducimus, qui blan</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3  col-sm-4">
+                    <div class="first_one text-center">
+                        <div class="top_one">Premium</div>
+                        <div class="other">
+                            <p class="text-uppercase">$60</p>
+                            <span class="text-capitalize">per month</span>
+                        </div>
+                    </div>
+                    <div class="second_one text-center">
+                        <div class="top2_one text-left">
+                            <ul type="none">
+                                <li>Full Branding</li>
+                                <li>Project Management</li>
+                                <li>Unlimited Revisions</li>
+                                <li>24/7 in Service</li>
+                                <li>Free Domain</li>
+                                <li>Free Hosting</li>
+                            </ul>
+                        </div>
+                        <div class="other2"><a href="#" target="_blank">Let's start ></a></div>
+                    </div></div>
+                <div class="col-lg-3 col-md-3  col-sm-4">
+                    <div class="first_two text-center">
+                        <div class="top_two">Profesional</div>
+                        <div class="other">
+                            <p class="text-uppercase">$70</p>
+                            <span class="text-capitalize">per month</span></div>
+                    </div>
+
+                    <div class="second_two text-center">
+                        <div class="top2_two text-left">
+                            <ul type="none">
+                                <li>Full Branding</li>
+                                <li>Project Management</li>
+                                <li>Unlimited Revisions</li>
+                                <li>24/7 in Service</li>
+                                <li>Free Domain</li>
+                                <li>Free Hosting</li>
+                            </ul>
+                        </div>
+                        <div class="other2"><a href="#" target="_blank">Let's start ></a></div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-3  col-sm-4">
+                    <div class="first_three text-center">
+                        <div class="top_three">Exlusive</div>
+                        <div class="other">
+                            <p class="text-uppercase">$80</p>
+                            <span class="text-capitalize">per month</span>
+                        </div>
+                    </div>
+
+                    <div class="second_three text-center">
+                        <div class="top2_three text-left">
+                            <ul type="none">
+                                <li>Full Branding</li>
+                                <li>Project Management</li>
+                                <li>Unlimited Revisions</li>
+                                <li>24/7 in Service</li>
+                                <li>Free Domain</li>
+                                <li>Free Hosting</li>
+                            </ul>
+                        </div>
+                        <div class="other2"><a href="#" target="_blank">Let's start ></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="subscribe">
         <h3 class="text-center text-uppercase">Subscribe Us</h3>
         <p class="text-center">atus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque
@@ -1028,7 +1103,7 @@
     </section>
     <section class="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5758.008923596326!2d36.231301182139894!3d49.99445896905231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41270a70db54a507%3A0x1933e72fc3a2484e!2zTEVNT04uU0NIT09MIPCfjYsgSVQt0LrRg9GA0YHRiyDQsiDQpdCw0YDRjNC60L7QstC1IOKEluKeii4g0JbQnNCYIOKenOKenCBpT1MsIFNFTywgUEhQLCBKUywgSmF2YXNjcmlwdCwgUUEsIFBNLCBIVE1MLCBDU1Mg0LLQtdGA0YHRgtC60LgsIEhSLCBQUEMsIEpBVkEsIERFU0lHTiwgU01NINCyINGB0L7RhiDRgdC10YLRj9GFLCDQstC10LEt0LTQuNC30LDQudC9LCDQvNCw0YDQutC10YLQuNC90LMsINGE0L7RgtC-0YjQvtC_LCDQv9GA0L7QtNCy0LjQttC10L3QuNC1INGB0LDQudGC0L7Qsiwg0YDQtdC60LvQsNC80LAsIFBSLCDQutC-0LzQv9GM0Y7RgtC10YDQvdGL0LUg0LrRg9GA0YEg0YLQtdGB0YLQuNGA0L7QstGJ0LjQutC-0LIsINCY0KIg0L7QsdGD0YfQtdC90LjQtSDQsNC50YLQuCDQvtCx0YDQsNC30L7QstCw0L3QuNC1INC_0YDQvtCz0YDQsNC80LzQuNGA0L7QstCw0L3QuNGPINCyINCl0LDRgNGM0LrQvtCy0LU!5e0!3m2!1sru!2sua!4v1527518314425"
-                width="1366" height="450" frameborder="0" style="border:0; max-width: 1366px" allowfullscreen></iframe>
+                 height="450" frameborder="0" style="border:0; max-width: 1366px" allowfullscreen></iframe>
     </section>
 </main>
 <footer>
@@ -1102,7 +1177,30 @@
         }
 
     });
-
+    $('.top_three').click(function () {
+        $('.first_three').addClass('none');
+        $('.second_three').addClass('block');
+    });
+    $('.top_one').click(function () {
+        $('.first_one').addClass('none');
+        $('.second_one').addClass('block');
+    });
+    $('.top_two').click(function () {
+        $('.first_two').addClass('none');
+        $('.second_two').addClass('block');
+    });
+    $('.top2_three').click(function () {
+        $('.second_three').removeClass('block');
+        $('.first_three').removeClass('none');
+    });
+    $('.top2_one').click(function () {
+        $('.second_one').removeClass('block');
+        $('.first_one').removeClass('none');
+    });
+    $('.top2_two').click(function () {
+        $('.second_two').removeClass('block');
+        $('.first_two').removeClass('none');
+    });
 </script>
 </body>
 </html>

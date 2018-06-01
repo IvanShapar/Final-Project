@@ -1,4 +1,4 @@
-@import "Costants";
+
 .second-carousel{
   padding: 80px 0 65px;
   background-color: $back_color;
@@ -41,6 +41,7 @@
 }}
 .third-carousel{
   background-image: url("../images/imad-bg.png");
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 80px 0 80px;
   @include media-max(414px){

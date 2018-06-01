@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAOA,QAAQ;EACN,SAAS,EAAE,IAAI;EACf,WAAW,EARS,iBAAiB;EASrC,KAAK,EAPQ,OAAO;;AAStB,KAAM;EACJ,SAAS,EAAE,IAAI;EACf,WAAW,EAdM,WAAW;EAe5B,WAAW,EAAE,KAAK;EAClB,KAAK,EAZK,OAAO",
+"sources": ["Costants.scss"],
+"names": [],
+"file": "last_blocks_footer.css"
+}

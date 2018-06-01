@@ -1,8 +1,9 @@
-@import "Costants";
+
 
 .subscribe {
   padding: 80px 0 100px;
   background-image: url("../images/imad-bg-2.png");
+  background-size: cover;
   @include media-max(414px) {
     padding: 40px 0 50px;
   }
@@ -40,7 +41,7 @@
     button {
       display: inline-block;
       height: 40px;
-      width: 28.84%;
+      width: 27%;
       border-radius: 0;
       box-shadow: none;
       background-color: $active_color;
